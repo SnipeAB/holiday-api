@@ -57,8 +57,8 @@ Returns holidays for the current system date.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/SnipeAB/-holiday-api.git
-   cd -holiday-api
+   git clone https://github.com/SnipeAB/holiday-api.git
+   cd holiday-api
    ```
 
 2. Install dependencies:
