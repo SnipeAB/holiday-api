@@ -1,12 +1,12 @@
-# 🎉 Obscure Holiday API
+# 🎉 Holiday API
 
-Ever wanted to know what weird, fun, or downright bizarre holidays are celebrated today? Look no further! The **Obscure Holiday API** gives you quick access to oddball celebrations based on date. 🗓️✨
+Ever wanted to know what weird, fun, or downright bizarre holidays are celebrated today? Look no further! The ** Holiday API** gives you quick access to oddball celebrations based on date. 🗓️✨
 
 ---
 
 ## 🚀 Features
 
-- 🔍 `GET /holiday?date=MM-DD` — Fetch obscure holidays for any date
+- 🔍 `GET /holiday?date=DD-MM` — Fetch  holidays for any date
 - 📅 `GET /today` — Instantly get today's quirky holidays
 - 🌐 JSON responses, easy to integrate in apps or projects
 - 💡 Ideal for content creators, indie hackers, bots, and newsletters
@@ -22,18 +22,18 @@ http://localhost:8000
 
 ### 📬 Endpoints
 
-#### `GET /holiday?date=MM-DD`
+#### `GET /holiday?date=DD-MM`
 Returns holidays for a specific date.
 
 **Example:**
 ```
-/holiday?date=07-30
+/holiday?date=30-07
 ```
 
 **Response:**
 ```json
 {
-  "date": "07-30",
+  "date": "30-07",
   "holidays": ["International Friendship Day", "National Cheesecake Day"]
 }
 ```
@@ -46,7 +46,7 @@ Returns holidays for the current system date.
 **Response (example):**
 ```json
 {
-  "date": "12-25",
+  "date": "25-12",
   "holidays": ["Christmas", "Pumpkin Pie Day"]
 }
 ```
@@ -57,8 +57,8 @@ Returns holidays for the current system date.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/obscure-holiday-api.git
-   cd obscure-holiday-api
+   git clone https://github.com/SnipeAB/-holiday-api.git
+   cd -holiday-api
    ```
 
 2. Install dependencies:
@@ -87,7 +87,7 @@ Returns holidays for the current system date.
 
 ## 📅 Sample Data
 
-Holiday data is stored in [`data/holidays.json`](./data/holidays.json). You can easily extend it by adding new entries in `MM-DD` format.
+Holiday data is stored in [`data/holidays.json`](./data/holidays.json). You can easily extend it by adding new entries in `DD-MM` format.
 
 ---
 
