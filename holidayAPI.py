@@ -12,7 +12,7 @@ with holiday_file.open() as f:
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to the Obscure Holiday API!"}
+    return {"message": "Welcome to the Holiday API!"}
 
 @app.get("/holiday")
 def get_holiday(date: str = Query(..., pattern=r"^\d{2}-\d{2}$")):
