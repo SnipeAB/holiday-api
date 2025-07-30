@@ -68,7 +68,7 @@ Returns holidays for the current system date.
 
 3. Run the API:
    ```bash
-   python -m uvicorn main:app --reload
+   python -m uvicorn holidayAPI:app --reload
    ```
 
 4. Visit Swagger UI:
